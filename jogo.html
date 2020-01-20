@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Caça Goombas</title>
+
+	<script src="jogo.js">
+
+	</script>
+</head>
+
+<body onload="iniciaJogo()">
+
+	<div style="float: left; width: auto; height: 500px; background: #FFF; border: solid 1px #A2A2A2; margin-right: 6px;">
+		<table border="0">
+			<tr>
+				<td><img src="imagens/goomba_grande.png" alt=""></td>
+				<td>
+				<span id="goombasVivos" style="font-size: 40px;"></span>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<table border="0">
+			<tr>
+				<td><img src="imagens/goomba_grande_x.png" alt=""></td>
+				<td>
+				<span id="goombasMortos" style="font-size: 40px;"></span>	
+				</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<table border="0" style="width: 140px; height: 132px;">
+			<tr>
+				<td style="text-align: center; background: url('imagens/cronometro.png')">
+					<span id="cronometro" style="font-size: 30px; "></span>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+	<div id="cenario"
+		style="float: left; width: 600px; height: 500px; background: url('imagens/cenario.png'); background-position: bottom;">
+
+	</div>
+
+</body>
+
+</html>
